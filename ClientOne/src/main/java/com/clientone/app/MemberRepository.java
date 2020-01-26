@@ -1,7 +1,7 @@
 package com.clientone.app;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface MemberRepository extends JpaRepository<MemberDTO,Integer> {
+public interface MemberRepository extends CrudRepository<MemberDTO,String>{
 
 }
